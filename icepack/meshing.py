@@ -194,8 +194,7 @@ def _topologize(input_features):
 
 def _find_bounding_feature(features):
     r"""Return the index of the feature in the collection that contains all
-    other features"""
-        r"""THE 'ELSE' STATEMENT WAS APPENDED TO THIS FUNCTION"""
+    other features -- THE 'ELSE' STATEMENT WAS APPENDED TO THIS FUNCTION"""
     line_strings = [sum(feature["geometry"]["coordinates"], []) for feature in features]
     polygons = [shapely.geometry.Polygon(line_string) for line_string in line_strings]
 
