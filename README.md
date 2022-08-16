@@ -10,5 +10,6 @@ Some of these demos use real data, for which you'll need to have an account with
 See also [firedrake](https://www.firedrakeproject.org), a finite element modeling package used to implement the solvers in icepack.
 
 
+Notes:
 
 I've hard-coded a few things in the meshing.py script (I editted the _find_bounding_feature function to work for my particular case)
